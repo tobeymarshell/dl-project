@@ -145,7 +145,7 @@ def predict_single_image(img_path, model, target_size, class_labels):
         return f"Error processing image: {e}", None
 
 if __name__ == "__main__":
-    test_image_path = r'C:\Gen z\SEM 3-2\DL\DL project\archive\Yeast\Yeast_13.png'
+    test_image_path = r'Amoeba/Amoeba_11.png'
     predicted_label, confidence = predict_single_image(test_image_path, model, IMAGE_SIZE, class_labels)
 
     if predicted_label and confidence is not None:
