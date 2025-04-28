@@ -8,7 +8,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-DATA_DIR = r'Amoeba'
+DATA_DIR = r'archive'
 IMAGE_SIZE = (128, 128)
 BATCH_SIZE = 16
 EPOCHS = 5
